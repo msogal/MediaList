@@ -1,0 +1,10 @@
+#include <iostream>
+#include<string.h>
+#include "Media.h"
+
+using namespace std;
+
+Music::Music(char ntitle[], int nyear, char nartist[], char npub[], int nrating, int duration):Media(ntitle, nyear){
+  strcpy(artist, nartist);
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+}
