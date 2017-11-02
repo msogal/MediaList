@@ -1,5 +1,5 @@
 #include <iostream>
-#include<string.h>
+#include<cstring>
 #include "Music.h"
 using namespace std;
 
@@ -20,4 +20,7 @@ int Music:: getRating(){
 }
 float Music::getDuration(){
   return duration;
+}
+int getType(){
+  return 2;
 }

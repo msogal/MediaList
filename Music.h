@@ -11,6 +11,7 @@ class Music: public Media {
   char getPub();
   int getRating();
   float getDuration();
+  int getType();
 
  private:
   char artist[];

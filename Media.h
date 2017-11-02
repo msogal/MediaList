@@ -1,3 +1,5 @@
+#ifndef Media_H
+#define Media_H 
 #include <iostream>
 
 using namespace std;
@@ -8,8 +10,9 @@ class Media{
   Media(char ntitle[], int nyear);
   char getTitle();
   int getYear();
-  int getType();
+  virtual int getType();
  private:
   char* title;
   int year; 
 };
+#endif
