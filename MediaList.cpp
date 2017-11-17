@@ -1,3 +1,8 @@
+/*
+this application lets you add movies, music and vide ogames to a catalog
+By Mihira Sogal
+11/17/2017
+ */
 #include <iostream>
 #include <cstring>
 #include <vector>
